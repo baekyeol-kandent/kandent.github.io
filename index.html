@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="profile-section">
+        <button id="langToggle" class="lang-btn">🇰🇷 한국어</button>
+
+        <div class="container">
+            <div class="profile-img">
+                <img src="Profile.png" alt="프로필 사진">
+            </div>
+            <h1 data-lang-key="name">KANDENT</h1>
+            <p class="bio" data-lang-key="bio">
+                Welcome to my portfolio!<br>
+                I usually work with cinematic, and video game music. <br>
+                Feel free to look around and vibe to my creations! <br>
+                If you want to contact me, please reach out through my social media links above.
+            </p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
+                <a href="#"><i class="fab fa-soundcloud"></i> SoundCloud</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="music-section">
+        <div class="container">
+            <h2 data-lang-key="libraryTitle">Music Library</h2>
+            <p class="warning-text" data-lang-key="warning">
+            ⚠️ All tracks below are watermarked and for demo purposes only. Please contact me if you want to use any of them! ⚠️
+            </p>
+            
+            <div class="controls">
+                <input type="text" id="searchInput" placeholder="Please input any names or genre...">
+                <div class="filter-buttons" id="filterContainer">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="Piano">Piano</button>
+                    <button class="filter-btn" data-filter="Orchestral">Orchestral</button>
+                    <button class="filter-btn" data-filter="Electronic">Electronic</button>
+                    <button class="filter-btn" data-filter="Rock">Rock</button>
+                    <button class="filter-btn" data-filter="Retro">Retro</button>
+                    <button class="filter-btn" data-filter="Jazz">Jazz</button>
+                    <button class="filter-btn" data-filter="Miscellaneous">Miscellaneous</button>
+                </div>
+            </div>
+
+            <div id="musicGrid" class="music-grid">
+                </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
