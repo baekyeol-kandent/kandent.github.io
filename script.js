@@ -5,7 +5,7 @@ let currentLang = 'en';
 const siteTranslations = {
     en: {
         name: "KANDENT",
-        bio: "Welcome to my portfolio!<br>I usually work with cinematic and video game music. <br>Feel free to look around and vibe to my creations! <br>If you want to contact me, please reach out through my social media links below. <br> <b>Commissions are closed for now.</b>",
+        bio: "Welcome to my portfolio!<br>I usually work with cinematic and video game music. <br>Feel free to look around and vibe to my creations! <br>If you want to contact me, please reach out through my social media links below. <br> <b>Commissions are closed for now.</b> <br> For now, links below are under construction. please contact via backiirz@gmail.com.",
         libraryTitle: "Music Library",
         warning: "⚠️ All tracks below are watermarked and for demo purposes only. Unauthorized use is strictly prohibited. ⚠️",
         searchPlaceholder: "Please input any names or genre...",
