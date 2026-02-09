@@ -5,7 +5,7 @@ let currentLang = 'en';
 const siteTranslations = {
     en: {
         name: "KANDENT",
-        bio: "Welcome to my portfolio!<br>I usually work with cinematic, and video game music. <br>Feel free to look around and vibe to my creations! <br>If you want to contact me, please reach out through my social media links above. <br> commisions are closed for now.",
+        bio: "Welcome to my portfolio!<br>I usually work with cinematic and video game music. <br>Feel free to look around and vibe to my creations! <br>If you want to contact me, please reach out through my social media links below. <br> <b>Commissions are closed for now.</b>",
         libraryTitle: "Music Library",
         warning: "⚠️ All tracks below are watermarked and for demo purposes only. Unauthorized use is strictly prohibited. ⚠️",
         searchPlaceholder: "Please input any names or genre...",
@@ -13,7 +13,7 @@ const siteTranslations = {
     },
     ko: {
         name: "KANDENT",
-        bio: "제 포트폴리오에 오신 것을 환영합니다!<br>저는 주로 영상 음악과 게임 음악을 작업합니다. <br>편하게 둘러보시고 제 음악을 즐겨주세요! <br>연락을 원하시면 상단의 소셜 미디어 링크를 통해 연락 주세요. <br> 현재 커미션은 닫혀 있습니다.",
+        bio: "제 포트폴리오에 오신 것을 환영합니다!<br>저는 주로 영상 음악과 게임 음악을 작업합니다. <br>편하게 둘러보시고 제 음악을 즐겨주세요! <br>연락을 원하시면 상단의 소셜 미디어 링크를 통해 연락 주세요. <br> <b>현재 커미션은 닫혀 있습니다. </b>",
         libraryTitle: "음악 보관소",
         warning: "⚠️ 아래의 모든 트랙은 워터마크가 포함된 데모용입니다. 무단 사용을 철저히 금합니다. ⚠️",
         searchPlaceholder: "원하는 곡의 제목이나 장르를 검색하세요...",
@@ -93,7 +93,7 @@ const musicData = [
         id: 7,
         title: "Post Singularitatem", 
         description: {
-            en: "Orchestral fusion track for a boss battle",
+            en: "Orchestral fusion track for a boss battle.",
             ko: "보스 전투를 위한 오케스트라 퓨전 곡입니다."
         },
         genre: "Orchestral",
@@ -137,7 +137,7 @@ const musicData = [
         id: 11,
         title: "Fate Follows", 
         description: {
-            en: "A joyful jazz-EDM fusion track that is reminiscent of freedom in fate",
+            en: "A joyful jazz-EDM fusion track that is reminiscent of freedom in fate.",
             ko: "운명 속에서 자유로움을 상기시키는 신나는 재즈-EDM 퓨전 곡입니다."
         },
         genre: "Electronic",
